@@ -1,0 +1,24 @@
+.profileAvatar {
+    display: block;
+    width: 140px;
+    height: 190px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-top: -390px;
+    margin-left: 70px;
+    background-color: #5A86FF;
+
+
+}
+
+.profileAvatarImg {
+    width: 130px;
+    height: 130px;
+    border-radius: 40px;
+    margin: 0 auto;
+    background-color: white;
+    background-image: url("https://www.surfsession.com/img/pictures/2021/20210215/thumbnail/2102153641.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
