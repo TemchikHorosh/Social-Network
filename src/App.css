@@ -13,6 +13,6 @@
 
 .app-wrapper-content {
     grid-area: c;
-    background-color: brown;
-
+    background-color: #5A86FF;
+    width: 100%;
 }
