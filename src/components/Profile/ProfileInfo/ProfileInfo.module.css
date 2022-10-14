@@ -1,0 +1,32 @@
+.profileHeader {
+    margin: 10px auto;
+    width: 970px;
+    height: 350px;
+    border-radius: 50px;
+    position: relative;
+    overflow: visible;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.profileCoverImg{
+    width: auto;
+    height: 350px;
+    border-radius: 20px;
+    background-image: url("https://vk-oblozhki.ru/photos/big/7d8e6620a3041cb81f05bdcf1971f031.jpg");
+}
+
+.profileHeaderAva {
+    margin: 200px auto;
+    border-radius: 20px;
+    width: auto;
+    height: 130px;
+    background-color: #5A86FF;
+    background-attachment: fixed;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+
+}
+
+.descriptionBlock {
+    padding: 10px;
+}
