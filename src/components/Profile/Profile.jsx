@@ -1,14 +1,11 @@
 import React from 'react';
 import MyPosts from "./MyPosts/MyPosts";
-import ProfileHeader from "./ProfileHeader/Profileheader";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
 const Profile = () => {
     return (
         <div>
-            <ProfileHeader />
-            <div>
-                Ava + description
-            </div>
+            <ProfileInfo/>
             <MyPosts/>
         </div>
     )
