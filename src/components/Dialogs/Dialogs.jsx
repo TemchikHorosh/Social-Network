@@ -32,7 +32,7 @@ const Dialogs = (props) => {
 
     let messages = [
         {id: 1, message: 'Hi'},
-        {id: 2, message: 'How is your is-kamasutra'},
+        {id: 2, message: 'How is your IT?'},
         {id: 3, message: 'Yo'},
         {id: 4, message: 'Yo'},
         {id: 5, message: 'Yo'}
