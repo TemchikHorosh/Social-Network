@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './ProfileInfo.module.css'
-import ProfileAvatar from "../ProfileAvatar/ProfileAvatar";
+import ProfileAvatar from '../ProfileAvatar/ProfileAvatar';
 
 
 const ProfileInfo = (props) => {

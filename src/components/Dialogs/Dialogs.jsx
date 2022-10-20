@@ -1,16 +1,16 @@
 import React from 'react';
 import s from './Dialogs.module.css';
-import Message from "./Message/Message";
-import DialogsData from "./DialogsData/DialogsData";
-import MessagesData from "./Message/MessagesData/MessagesData";
+
+import DialogsElements from './DialogElements/DialogElements';
+import MessagesElements from './Message/MessageElements/MessagesElements';
 
 
 const Dialogs = (props) => {
 
     return (
         <div className={s.dialogs}>
-                <DialogsData />
-                <MessagesData />
+            <DialogsElements dialogs={props.dialogs}/>
+            <MessagesElements messages={props.messages}/>
         </div>
     );
 }
