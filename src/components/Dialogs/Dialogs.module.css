@@ -3,6 +3,54 @@
     grid-template-columns: 2fr 10fr;
 }
 
+
+.container {
+    border:2px solid #dedede;
+    background-color: #5C37D4;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.darker {
+    border-color: #ccc;
+    background-color: #5A45F6;
+}
+.container::after {
+    content:"";
+    clear:both;
+    display: table;
+}
+
+.container img{
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+
+.container img.right {
+    float:right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.timeRight {
+    float: right;
+    color: rgba(0,0, 0, 0.5);
+}
+
+.timeLeft {
+    float:left;
+    color:rgba(0,0, 0, 0.5);
+}
+
+.dialog{
+
+}
+
 .dialogsItems {
     padding: 10px;
     border-right: 2px solid black;
@@ -17,6 +65,7 @@
 
 .messages {
     padding: 10px;
+
 }
 
 .message {
