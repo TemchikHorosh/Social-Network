@@ -14,9 +14,20 @@ const Dialogs = (props) => {
             <div className={s.dialogsItems}>
                 { dialogsElements }
             </div>
+
             <div className={s.messages}>
-                { messagesElements }
+                <div className={s.container}>
+                    <img src="https://i1.sndcdn.com/avatars-000529882611-ht5r1v-t500x500.jpg" alt="avatar"/>
+                    <p>{ messagesElements[1] }</p>
+                    <span className={s.timeRight}>11:00</span>
+                </div>
+                <div className={`${s.container} ${s.darker}`}>
+                    <img src="https://kartinkin.net/uploads/posts/2022-06/1655668971_4-kartinkin-net-p-krasivie-kartinki-dlya-diskorda-4.jpg" alt="avatar" className={s.right}/>
+                     <p>{ messagesElements[2] }</p>
+                    <span className={s.timeLeft}>11:04</span>
+                </div>
             </div>
+
         </div>
     );
 }
