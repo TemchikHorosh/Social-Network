@@ -6,7 +6,7 @@
 
 .container {
     border:2px solid #dedede;
-    background-color: #5C37D4;
+    background-color: #B67FB8;
     border-radius: 5px;
     padding: 10px;
     margin: 10px 0;
@@ -14,7 +14,7 @@
 
 .darker {
     border-color: #ccc;
-    background-color: #5A45F6;
+    background-color: #4E2E4F;
 }
 .container::after {
     content:"";
@@ -39,12 +39,12 @@
 
 .timeRight {
     float: right;
-    color: rgba(0,0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .timeLeft {
     float:left;
-    color:rgba(0,0, 0, 0.5);
+    color:rgba(255, 255, 255, 0.5);
 }
 
 .dialog{
@@ -56,11 +56,20 @@
     border-right: 2px solid black;
     margin: 10px;
     border-radius: 5px;
+    text-decoration: none;
+    font-size:18px;
+    width: 100px;
 
 }
 
-.dialogsItems .active {
-    color: gold;
+.dialogsItems a{
+    text-decoration: none;
+    color: black;
+}
+
+.dialogsItems a:hover {
+    background-color: #5D3E5E;
+    border-radius: 4px;
 }
 
 .messages {

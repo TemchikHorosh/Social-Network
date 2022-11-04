@@ -1,17 +1,27 @@
+*{
+    font-family: -apple-system;
+}
 .nav {
     grid-area: n;
-    background-color: #906DED;
-    padding: 20px
+    background-color: #322333;
+    padding: 20px;
 }
 
 .item a {
     color: white;
     text-decoration: none;
     font-size: 18px;
+
+}
+
+.item a:hover {
+    background-color: #775378;
+    padding: 2px;
+    border-radius: 5px;
 }
 
 .item a.activeLink {
-    color: gold;
+    color: #9E5DA1;
 }
 
 .item{
