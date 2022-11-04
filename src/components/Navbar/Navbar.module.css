@@ -7,8 +7,18 @@
 .item a {
     color: white;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .item a.activeLink {
     color: gold;
+}
+
+.item{
+    color: white;
+    font-size: 18px;
+}
+
+.friendList {
+    padding: 15px 0;
 }

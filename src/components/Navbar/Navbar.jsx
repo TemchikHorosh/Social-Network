@@ -20,8 +20,8 @@ const Navbar = () => {
             <div className={s.item}>
                 <NavLink to='/settings' className={nav=>nav.isActive ? s.activeLink: s.item}>Settings</NavLink>
             </div>
-            <div className={s.item}>
-                <NavLink to='/friendList' className={nav => nav.isActive ? s.activeLink: s.item}>Friend List</NavLink>
+            <div className={`${s.item} ${s.friendList}`}>
+                Friend List
             </div>
 
         </nav>
