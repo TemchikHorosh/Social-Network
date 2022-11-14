@@ -77,6 +77,35 @@
 
 }
 
+.areaForMessage {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.areaForMessage textarea{
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 30px;
+    max-height: 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 15px;
+    outline: none;
+    border:1px solid grey;
+}
+
+.areaForMessage button {
+    border: medium none;
+    background:transparent;
+    float:left;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+
 .message {
 
 }
