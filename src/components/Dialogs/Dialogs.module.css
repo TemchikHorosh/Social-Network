@@ -103,8 +103,12 @@
     float:left;
     font-size: 20px;
     margin-left: 5px;
+    color: #B69FB87F;
 }
 
+.areaForMessage button:hover{
+    color: #B69FB8;
+}
 
 .message {
 
